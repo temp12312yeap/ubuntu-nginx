@@ -73,3 +73,11 @@ The following NEW packages will be installed:
 Need to get 17.6 MB of archives.
 After this operation, 56.4 MB of additional disk space will be used.
 ```
+
+nginx 서비스 실행하기
+```
+root@d4753f53a68e:/# service nginx start
+ * Starting nginx nginx                                                                                          [ OK ]
+root@d4753f53a68e:/# service nginx status
+ * nginx is running
+```
