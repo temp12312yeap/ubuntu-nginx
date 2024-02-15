@@ -14,9 +14,10 @@ sudo docker pull ubuntu
 sudo docker pull ubuntu:22.04
 ```
 
-우분투 실행
+우분투 생성 및 실행
 ```
  sudo docker run -it -d --name ubuntu-nginx3  fd1d8f58e8ae
+ sudo docker exec -it ubuntu-nginx3 bash
 ```
 
 apt update for nginx installation
